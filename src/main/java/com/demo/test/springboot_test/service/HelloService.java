@@ -42,4 +42,8 @@ public class HelloService {
         }
         return result;
     }
+
+    public String Hello(User user){
+        return user.getName();
+    }
 }
